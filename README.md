@@ -131,3 +131,17 @@ DG/DirectX is a DG implementation over DirectX
 
 ## Supported GUI constrols
 The libdg interface defines the following graphics controls - Rectangle, Label, Image, Listbox, Progress Bar and Scroll Bar.
+
+### Base widget
+
+![Base widget](doc/widget.png "Base widget")
+
+### Label
+
+![Label](doc/label.png "Label")
+
+### Listbox
+![Listbox](doc/listbox.png "Listbox")
+
+### Image
+![Image](doc/image.png "Image")
