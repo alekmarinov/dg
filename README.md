@@ -9,6 +9,23 @@ DG interface provides functions for creating graphics context and controls for b
 
 The library aims to make an abstraction layer between the user and the low level details, e.g. operating system, video memory, input devices etc.
 
+## Supported GUI constrols
+The libdg interface defines the following graphics controls - Rectangle, Label, Image, Listbox, Progress Bar and Scroll Bar.
+
+### Base widget
+
+![Base widget](doc/widget.png "Base widget")
+
+### Label
+
+![Label](doc/label.png "Label")
+
+### Listbox
+![Listbox](doc/listbox.png "Listbox")
+
+### Image
+![Image](doc/image.png "Image")
+
 ## Space (resolution) systems
 
 There are two different resolutions used by DG. 
@@ -128,20 +145,3 @@ The library implementing the libdg interface over Direct FB is called libdgdfb a
 ### DG/DirectX
 
 DG/DirectX is a DG implementation over DirectX
-
-## Supported GUI constrols
-The libdg interface defines the following graphics controls - Rectangle, Label, Image, Listbox, Progress Bar and Scroll Bar.
-
-### Base widget
-
-![Base widget](doc/widget.png "Base widget")
-
-### Label
-
-![Label](doc/label.png "Label")
-
-### Listbox
-![Listbox](doc/listbox.png "Listbox")
-
-### Image
-![Image](doc/image.png "Image")
